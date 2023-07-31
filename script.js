@@ -44,7 +44,7 @@ batu.addEventListener("click", function () {
   seeHasil.innerHTML = input;
   seeHasil.classList.add("hasil1");
   const imgAi = document.querySelector("img.kom-batu");
-  imgAi.setAttribute("src", `/img/${ai}.png`);
+  imgAi.setAttribute("src", `./img/${ai}.png`);
 
   if (input == "Kalah") {
     value += 1;
@@ -79,7 +79,7 @@ kertas.addEventListener("click", function () {
   seeHasil.innerHTML = input;
   seeHasil.classList.add("hasil1");
   const imgAi = document.querySelector("img.kom-batu");
-  imgAi.setAttribute("src", `/img/${ai}.png`);
+  imgAi.setAttribute("src", `./img/${ai}.png`);
   if (input == "Kalah") {
     value += 1;
     elemen.textContent = value;
@@ -113,7 +113,7 @@ gunting.addEventListener("click", function () {
   seeHasil.innerHTML = input;
   seeHasil.classList.add("hasil1");
   const imgAi = document.querySelector("img.kom-batu");
-  imgAi.setAttribute("src", `/img/${ai}.png`);
+  imgAi.setAttribute("src", `./img/${ai}.png`);
   if (input == "Kalah") {
     value += 1;
     elemen.textContent = value;
